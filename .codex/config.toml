@@ -1,0 +1,6 @@
+[features]
+multi_agent = true
+
+[agents.pr]
+description = "Prepare and open pull requests. Use this agent whenever the user asks to open, create, or submit a PR."
+config_file = "./agents/pr.toml"
